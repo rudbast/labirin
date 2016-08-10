@@ -33,7 +33,7 @@ $.getJSON(URL, function (projects) {
         var newPanelContent = PANEL_CONTENT;
 
         // TODO: find another solution to replace all strings.
-        for (var i = 0; i < 4; ++i)
+        for (var i = 0; i < 5; ++i)
             newPanelContent = newPanelContent.replace(COUNT, index);
 
         newPanelContent = newPanelContent.replace(PROJECT, project.name);
