@@ -11,7 +11,7 @@ const PANEL_CONTAINER = '<div class="panel panel-default">\
 
 const PANEL_CONTENT =  '<div class="panel-heading" role="tab" id="head-' + COUNT + '">\
                             <h4 class="panel-title">\
-                                <a role="button" data-toggle="collapse" data-parent="#page-list" href="#project-' + COUNT + '" aria-expanded="false" aria-controls="collapseOne">\
+                                <a role="button" data-toggle="collapse" data-parent="#page-list" href="#project-' + COUNT + '" aria-expanded="false" aria-controls="project-' + COUNT + '">\
                                     ' + PROJECT + '\
                                 </a>\
                             </h4>\
