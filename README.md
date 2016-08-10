@@ -1,4 +1,4 @@
-# LabIRin
+# LabIRa
 
 Home page for University of Tarumanagara Information Retrieval laboratory projects list.
 
