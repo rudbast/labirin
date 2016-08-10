@@ -5,21 +5,23 @@ const URL         = 'projects-list.json',
       DESCRIPTION = '{DESCRIPTION}',
       LINK        = '{LINK}';
 
-const PANEL_CONTAINER = '<div class="panel panel-default">\
+const PANEL_CONTAINER = '<div class="panel-group" id="page-list" role="tablist" aria-multiselectable="true">\
                             {CONTENT}\
                         </div>';
 
-const PANEL_CONTENT =  '<div class="panel-heading" role="tab" id="head-' + COUNT + '">\
-                            <h4 class="panel-title">\
-                                <a role="button" data-toggle="collapse" data-parent="#page-list" href="#project-' + COUNT + '" aria-expanded="false" aria-controls="project-' + COUNT + '">\
-                                    ' + PROJECT + '\
-                                </a>\
-                            </h4>\
-                        </div>\
-                        <div id="project-' + COUNT + '" class="panel-collapse collapse" role="tabpanel" aria-labelledby="head-' + COUNT + '">\
-                            <div class="panel-body">\
-                                ' + DESCRIPTION + '\
-                                <br><a target=_blank href="http://' + LINK + '">Demo</a>\
+const PANEL_CONTENT =  '<div class="panel panel-default">\
+                            <div class="panel-heading" role="tab" id="head-' + COUNT + '">\
+                                <h4 class="panel-title">\
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#page-list" href="#project-' + COUNT + '" aria-expanded="false" aria-controls="project-' + COUNT + '">\
+                                        ' + PROJECT + '\
+                                    </a>\
+                                </h4>\
+                            </div>\
+                            <div id="project-' + COUNT + '" class="panel-collapse collapse" role="tabpanel" aria-labelledby="head-' + COUNT + '">\
+                                <div class="panel-body">\
+                                    ' + DESCRIPTION + '\
+                                    <br><a target=_blank href="http://' + LINK + '">Demo</a>\
+                                </div>\
                             </div>\
                         </div>';
 
