@@ -1,0 +1,22 @@
+[
+    {
+        "name": "GIR Kota Surakarta (Mobile Web)",
+        "description": "Geographic Information Retrieval (GIR) kota Surakarta",
+        "link": "103.75.25.78:8002/SGIR"
+    },
+    {
+        "name": "GIR Kota Surakarta (Android Apps)",
+        "description": "Geographic Information Retrieval (GIR) kota Surakarta",
+        "link": "103.75.25.78:8001/app/page-girta.html"
+    },
+    {
+        "name": "Hitung Suku Kata",
+        "description": "Aplikasi yang bertujuan untuk menghitung jumlah suku kata secara otomatis",
+        "link": "103.75.25.78/syllable"
+    },
+    {
+        "name": "Tes Kemampuan Membaca",
+        "description": "Aplikasi yang bertujuan untuk menguji kemampuan membaca anak",
+        "link": "103.75.25.78/reading-test"
+    }
+]
